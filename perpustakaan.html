@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan Buku — Rumah Quran Al-Hikmah</title>
+<meta name="description" content="Koleksi buku dan ebook Islami gratis dan berbayar dari Rumah Quran Al-Hikmah.">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div class="logo">🕌 Rumah Quran Al-Hikmah</div>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="perpustakaan.html" class="active">Perpustakaan</a></li>
+      <li><a href="pendaftaran.html">Pendaftaran</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero compact">
+  <div class="container">
+    <h1>📚 Perpustakaan Buku</h1>
+    <p>Koleksi buku dan ebook Islami untuk menemani perjalanan belajar Anda</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+
+    <div class="stats-bar">
+      <div class="stat-item"><h3 id="totalBooks">0</h3><p>Total Buku</p></div>
+      <div class="stat-item"><h3 id="freeBooks">0</h3><p>Buku Gratis</p></div>
+      <div class="stat-item"><h3 id="paidBooks">0</h3><p>Buku Berbayar</p></div>
+    </div>
+
+    <div class="filter-bar">
+      <input type="text" id="searchInput" class="search-box" placeholder="🔍 Cari judul buku atau penulis...">
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="gratis">Gratis</button>
+      <button class="filter-btn" data-filter="berbayar">Berbayar</button>
+      <button class="filter-btn" data-filter="tahsin">Tahsin</button>
+      <button class="filter-btn" data-filter="tahfidz">Tahfidz</button>
+      <button class="filter-btn" data-filter="fiqih">Fiqih</button>
+      <button class="filter-btn" data-filter="parenting">Parenting</button>
+    </div>
+
+    <div class="books-grid" id="booksGrid"></div>
+
+    <div class="card center" style="margin-top:50px; border-top-color: var(--primary); max-width:700px; margin-left:auto; margin-right:auto;">
+      <h3>💚 Dukung Kami</h3>
+      <p>Semua buku gratis dapat Anda unduh tanpa biaya. Jika bermanfaat, Anda bisa mendukung kami melalui infaq untuk terus menghasilkan buku-buku baru.</p>
+      <a href="kontak.html" class="btn btn-primary" style="margin-top:15px;">Info Donasi</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div>
+      <h4>🕌 Rumah Quran Al-Hikmah</h4>
+      <p>Membina generasi Qur'ani yang mencintai Al-Qur'an, mengamalkan isinya, dan berakhlak mulia.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="perpustakaan.html">Perpustakaan</a></li>
+        <li><a href="pendaftaran.html">Pendaftaran</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Kontak</h4>
+      <p>📍 Jl. Contoh No. 123, Kota Anda</p>
+      <p>📱 <a href="https://wa.me/6281234567890">0812-3456-7890</a></p>
+      <p>✉️ info@rumahquran-alhikmah.id</p>
+    </div>
+    <div>
+      <h4>Jam Operasional</h4>
+      <p>Senin – Jumat: 15.00 – 21.00</p>
+      <p>Sabtu: 08.00 – 17.00</p>
+      <p>Ahad: 07.00 – 12.00</p>
+    </div>
+  </div>
+  <div class="copyright">&copy; 2025 Rumah Quran Al-Hikmah. Semua hak dilindungi.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
